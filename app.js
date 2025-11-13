@@ -5,6 +5,7 @@ import express from 'express'
 import cors from 'cors';
 
 import empresaRoutes from './src/routes/empresaRoute.js';
+import usuarioRoutes from './src/routes/usuarioRoute.js';
 
 class App{
   constructor(){
@@ -21,6 +22,7 @@ class App{
 
   routes(){
     this.app.use('/empresa', empresaRoutes);
+    this.app.use('/usuario', usuarioRoutes);
   }
 }
 
