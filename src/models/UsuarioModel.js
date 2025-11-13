@@ -1,4 +1,4 @@
-import { collection, query, where, getDocs } from 'firebase/firestore';
+import { collection, query, where, getDocs, doc } from 'firebase/firestore';
 import FirebaseConfig from '../config/firebaseConfig';
 
 export default class Usuario{
