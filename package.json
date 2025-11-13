@@ -1,0 +1,33 @@
+{
+  "name": "dna-auth-backend",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/dna-data-nucleo-automacao/dna-auth-backend#readme",
+  "bugs": {
+    "url": "https://github.com/dna-data-nucleo-automacao/dna-auth-backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dna-data-nucleo-automacao/dna-auth-backend.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon api/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "firebase": "^12.5.0",
+    "firebase-admin": "^13.6.0",
+    "serverless-http": "^4.0.0",
+    "sucrase": "^3.35.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
